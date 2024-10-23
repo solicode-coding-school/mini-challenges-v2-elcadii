@@ -1,0 +1,20 @@
+html, body, #play-field{
+    margin: 0;
+    height: 100%;
+    background-color: #0d0d0d;
+    overflow: hidden;
+}
+#snake-food-div{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+ }
+ 
+.snake-body{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    
+}
