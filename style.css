@@ -4,6 +4,15 @@ html, body, #play-field{
     background-color: #0d0d0d;
     overflow: hidden;
 }
+#score-display {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; 
+}
+
 #snake-food-div{
     width: 10px;
     height: 10px;
@@ -15,6 +24,32 @@ html, body, #play-field{
     width: 10px;
     height: 10px;
     background-color: red;
+    border-radius: 40%;
     position: absolute;
     
+}
+#game-over{
+    display: none; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%); 
+    font-size: 24px; 
+    color: red;
+}
+#restart-button{
+    display: none; 
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    color: aliceblue;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transform: translate(-50%, -50%); 
+    padding: 10px; 
+    font-size: 16px;
 }
